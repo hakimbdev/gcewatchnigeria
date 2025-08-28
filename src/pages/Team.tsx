@@ -151,10 +151,12 @@ const Team = () => {
                 <p className="text-gray-600 leading-relaxed mb-6">{member.bio}</p>
                 
                 <div className="space-y-3 mb-6">
-                  <div className="flex items-start">
-                    <GraduationCap className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
-                    <span className="text-sm text-gray-600">{member.education}</span>
-                  </div>
+                  {member.education && (
+                    <div className="flex items-start">
+                      <GraduationCap className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
+                      <span className="text-sm text-gray-600">{member.education}</span>
+                    </div>
+                  )}
                   
                   {member.achievements && (
                     <div className="flex items-start">
