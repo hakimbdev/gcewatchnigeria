@@ -161,7 +161,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             {/* Copyright */}
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              <p>&copy; 2024 Girl Child Education Watch (GCEWATCH). All rights reserved.</p>
+              <p>&copy; 2025 Girl Child Education Watch of Nigeria (GCEWATCH Nigeria). All rights reserved.</p>
               <p className="mt-1">Registered NGO in Nigeria | CAC/IT/NO: 123456</p>
             </div>
 
