@@ -25,29 +25,7 @@ const About = () => {
     }
   ];
 
-  const team = [
-    {
-      name: 'Dr. Aisha Mohammed',
-      position: 'Founder & Executive Director',
-      bio: 'A passionate advocate for girls education with 15+ years experience in development work.',
-      image: 'https://images.pexels.com/photos/8923889/pexels-photo-8923889.jpeg?auto=compress&cs=tinysrgb&w=300',
-      education: 'PhD in Educational Development'
-    },
-    {
-      name: 'Khadijah Usman',
-      position: 'Program Director',
-      bio: 'Leading our field programs with expertise in community engagement and educational policy.',
-      image: 'https://images.pexels.com/photos/8923891/pexels-photo-8923891.jpeg?auto=compress&cs=tinysrgb&w=300',
-      education: 'MSc in Development Studies'
-    },
-    {
-      name: 'Hauwa Garba',
-      position: 'Community Outreach Manager',
-      bio: 'Connecting with grassroots communities to ensure sustainable educational change.',
-      image: 'https://images.pexels.com/photos/8923742/pexels-photo-8923742.jpeg?auto=compress&cs=tinysrgb&w=300',
-      education: 'BA in Social Work'
-    }
-  ];
+
 
   return (
     <div className="pt-20">
@@ -76,7 +54,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-gray-600 text-lg leading-relaxed">
                 <p>
-                  GCEWATCH was founded in 2016 by Dr. Aisha Mohammed, who witnessed firsthand 
+                  GCEWATCH Nigeria was founded in 2023 by Abdulhakim Ahmad, CPM, who witnessed firsthand 
                   the challenges facing girls' education in Northern Nigeria. After working 
                   with international development organizations for over a decade, she recognized 
                   the need for a locally-driven solution.
@@ -178,37 +156,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Leadership Team */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Our Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Meet the passionate leaders driving change in girls' education across Nigeria.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div className="text-center">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-32 h-32 rounded-full object-cover mx-auto mb-6"
-                  />
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
-                  <p className="text-blue-600 font-semibold mb-2">{member.position}</p>
-                  <p className="text-sm text-green-600 font-medium mb-4">{member.education}</p>
-                  <p className="text-gray-600 leading-relaxed">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-br from-green-600 to-blue-600 text-white">

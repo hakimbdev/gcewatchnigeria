@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Programs from './pages/Programs';
+import Team from './pages/Team';
 import GetInvolved from './pages/GetInvolved';
 import News from './pages/News';
 import Contact from './pages/Contact';
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/programs" element={<Programs />} />
+            <Route path="/team" element={<Team />} />
             <Route path="/get-involved" element={<GetInvolved />} />
             <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />

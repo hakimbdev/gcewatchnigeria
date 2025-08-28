@@ -31,7 +31,7 @@ const News = () => {
       excerpt: 'We are excited to announce our expansion into 15 new schools across Kano, Kaduna, and Sokoto states, bringing our total partnership to 45 institutions committed to girls\' education.',
       image: 'https://images.pexels.com/photos/8923775/pexels-photo-8923775.jpeg?auto=compress&cs=tinysrgb&w=600',
       category: 'program-updates',
-      author: 'Dr. Aisha Mohammed',
+      author: 'Abdulhakim Ahmad, CPM',
       date: '2024-02-10',
       readTime: '3 min read',
       featured: false
@@ -75,7 +75,7 @@ const News = () => {
       excerpt: 'GCEWATCH joins coalition of NGOs to advocate for comprehensive free education policy that prioritizes girls\' access to quality schooling.',
       image: 'https://images.pexels.com/photos/8923795/pexels-photo-8923795.jpeg?auto=compress&cs=tinysrgb&w=600',
       category: 'advocacy',
-      author: 'Dr. Aisha Mohammed',
+      author: 'Abdulhakim Ahmad, CPM',
       date: '2024-01-15',
       readTime: '7 min read',
       featured: false
