@@ -80,7 +80,7 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <MapPin className="h-5 w-5 mr-3 text-green-500" />
-                  <span className="text-sm">Plot 123, Gimbiya Street, Garki, Abuja</span>
+                  <span className="text-sm">Block No. 16 Osaja Street, Azare, Bauchi State, Nigeria.</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-5 w-5 mr-3 text-green-500" />

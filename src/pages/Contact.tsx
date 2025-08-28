@@ -37,9 +37,8 @@ const Contact = () => {
       icon: MapPin,
       title: 'Office Address',
       details: [
-        'Plot 123, Gimbiya Street',
-        'Area 11, Garki, Abuja',
-        'Federal Capital Territory',
+        'Block No. 16 Osaja Street,',
+        'Azare, Bauchi State, Nigeria.',
         'Nigeria'
       ]
     },
@@ -47,7 +46,7 @@ const Contact = () => {
       icon: Phone,
       title: 'Phone Numbers',
       details: [
-        '+234 9 123 4567',
+        '+234 806 255 8567',
         '+234 8 098 7654',
         'WhatsApp: +234 8 098 7654'
       ]
@@ -286,7 +285,7 @@ const Contact = () => {
                     <Phone className="h-6 w-6 text-green-600 mr-4" />
                     <div>
                       <p className="font-semibold text-gray-900">Call Us Directly</p>
-                      <p className="text-green-600">+234 9 123 4567</p>
+                      <p className="text-green-600">+234 806 255 8567</p>
                     </div>
                   </div>
                   
